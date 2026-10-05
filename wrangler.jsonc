@@ -2,7 +2,7 @@
   "$schema": "https://json.schemastore.org/wrangler.json",
   "name": "aurora-digital",
   "main": "./worker.js",
-"compatibility_date": "2026-10-05",
+  "compatibility_date": "2026-10-05",
   "assets": {
     "directory": "./",
     "binding": "ASSETS",
