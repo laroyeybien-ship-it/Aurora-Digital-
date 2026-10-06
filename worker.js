@@ -4,7 +4,7 @@ export default {
 
     // Crear factura de QvaPay
     if (url.pathname === "/api/create-invoice") {
-      if (request.method !== "POST") {
+      if (request.method !== "POST" && request.method !== "GET") {
         return new Response("Método no permitido", { status: 405 });
       }
 
